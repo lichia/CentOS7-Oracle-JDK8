@@ -1,6 +1,6 @@
 # Install centos 7
 
-FROM centos:7
+FROM centos
 MAINTAINER Lichia Lu <lichialu@gmail.com>
 ENV container docker
 RUN yum -y swap -- remove fakesystemd -- install systemd systemd-libs
